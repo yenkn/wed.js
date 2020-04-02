@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "pretty": true,
+    "jsx": "react",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false
+  },
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    "cjs"
+  ]
+}

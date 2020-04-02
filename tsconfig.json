@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false
+  },
+  "exclude": [
+    "./node_modules",
+    "./test",
+    "./cjs"
+  ]
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`import-plugin-test plugin-works 1`] = `
+"import { requestLambda as __requestLambda, useLambdaContext as __useLambdaContext } from 'wedjs/cjs/lambda/client';
+const __wed_lambda_config = {};
+
+const useUserList = () => {
+  const __wed_lambda_config = __useLambdaContext();
+
+  const fetch = __requestLambda(\\"test/getUserList\\", __wed_lambda_config);
+
+  useEffect(() => {
+    fetch();
+  }, []);
+};
+
+const App1 = () => {
+  const __wed_lambda_config = __useLambdaContext();
+
+  const {
+    data
+  } = useRequest(() => __requestLambda(\\"test/getUserList\\", __wed_lambda_config));
+  const {
+    data1
+  } = useRequest(() => __requestLambda(\\"test\\", __wed_lambda_config));
+  const handleClick = useCallback(() => {
+    const fetch = () => __requestLambda(\\"test/createUser\\", __wed_lambda_config, state);
+
+    fetch();
+  }, [state]);
+  return React.createElement(\\"div\\", null, React.createElement(Dash, null));
+};
+
+function App2(props) {
+  const __wed_lambda_config = __useLambdaContext();
+
+  const {
+    data
+  } = useUserList();
+}
+
+export function App3() {
+  const __wed_lambda_config = __useLambdaContext();
+}
+export default function () {
+  const __wed_lambda_config = __useLambdaContext();
+}
+export const App4 = () => {
+  const __wed_lambda_config = __useLambdaContext();
+};
+
+const App5 = () => {
+  const __wed_lambda_config = __useLambdaContext();
+
+  return React.createElement(\\"div\\", null);
+};"
+`;

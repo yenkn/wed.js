@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "allowJs": true,
+    "pretty": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "lib": [
+      "dom",
+      "esnext",
+      "es7"
+    ]
+  },
+  "include": [
+    "context", "app", "lambda", "./declare.d.ts", "./_document.tsx"
+  ]
+}

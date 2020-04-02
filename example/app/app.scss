@@ -1,0 +1,51 @@
+:global(body) {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Helvetica Neue", "PingFang SC", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+}
+:global(code) {
+  font-family: "JetBrains Mono", "Fira Code", Menlo, sans-serif;
+}
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 120px;
+  margin: 40px 0 16px 0;
+}
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.date {
+  padding: 64px 0;
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+
+    span { color: #F5C34A }
+  }
+
+  .data {
+    background: #F5C34A;
+    padding: 8px 16px;
+    border-radius: 32px;
+    font-weight: bold;
+  }
+
+  .ip {
+    color: #AAA;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+}
