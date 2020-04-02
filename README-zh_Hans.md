@@ -1,7 +1,11 @@
-# Wed.js
-终极同构Web框架
+<p align="center">
+  <img src="example/app/wedjs-logo.svg" height="100" />
+</p>
+<p align="center">
+    The ultimate isomorphic web framework
+</p>
 
-
+---
 
 > 🛠 当前处于活跃开发中，欢迎贡献代码
 >

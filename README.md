@@ -1,5 +1,11 @@
-# Wed.js
-The ultimate isomorphic web framework
+<p align="center">
+  <img src="example/app/wedjs-logo.svg" height="100" />
+</p>
+<p align="center">
+    The ultimate isomorphic web framework
+</p>
+
+---
 
 [简体中文](README-zh_Hans.md)
 
